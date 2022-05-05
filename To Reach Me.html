@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+<link rel="stylesheet" href="css/styles.css">
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Form</title>
 </head>
 
 <body>
-  <label> Your Name</label>
-  <input type="text" name="" value=""><br>
-  <label>Do You Want to Submit Details</label>
-<input type="checkbox" name="" value="">
-  <input type="submit">
+  <form action="mailto:info@abhishekmujumale1744.com" method="post" enctype="text/plain">
+    <h1>Details</h1>
+    <label> Your Name</label>
+    <input type="text" name="yourName" value=""><br>
+
+    <label>Enter Your Email</label>
+    <input type="email" name="yourEmail"><br>
+
+    <label>Set Your Birthdate</label>
+    <input type="date" name="yourBirthdate"><br>
+
+    <label>Your Message</label><br>
+    <textarea name="yourMessage" rows="10" cols="40"></textarea><br>
+
+    <label>Do You Want to Submit Details</label>
+    <input type="checkbox" name="" value="">
+    <input type="submit" name="">
+
+  </form>
 </body>
 
 </html>
